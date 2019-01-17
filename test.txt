@@ -1,0 +1,305 @@
+
+190066 = {
+	name="Bhaskaravarman"
+	dynasty=1044003
+	religion="hindu"
+	culture="assamese"
+	father=190064
+	trait="kshatriya"
+	trait="shaktist_hindu"
+	586.1.1={
+		birth=yes
+	}
+	650.1.1={
+		death=yes
+	}
+}
+
+#Mlecchas (same deal with culture and naming conventions, also linking in missing characters that I've added)
+190039 = {
+	name="Salasthamba"
+	dynasty=1043002
+	religion="hindu"
+	culture="assamese"
+	trait="kshatriya"
+	trait="shaivist_hindu"
+	600.1.1={
+		birth=yes
+	}
+	672.1.1={
+		death=yes
+	}
+}
+190040 = {
+	name="Vijayasthamba"
+	dynasty=1043002
+	religion="hindu"
+	culture="assamese"
+	father=190039
+	trait="kshatriya"
+	trait="shaivist_hindu"
+	620.1.1={
+		birth=yes
+	}
+	685.1.1={
+		death=yes
+	}
+}
+
+190041 = {
+	name="Harshadeva"
+	dynasty=1043002
+	religion="hindu"
+	culture="assamese"
+	father=191559
+	trait="kshatriya"
+	trait="shaivist_hindu"
+	700.1.1={
+		birth=yes
+	}
+	750.1.1={
+		death=yes
+	}
+}
+190042 = {
+	name="Balavarman"
+	dynasty=1043002
+	religion="hindu"
+	culture="assamese"
+	father=190041
+	trait="kshatriya"
+	trait="shaivist_hindu"
+	725.1.1={
+		birth=yes
+	}
+	787.1.1={
+		death=yes
+	}
+}
+190043 = {
+	name="Salambha"
+	dynasty=1043002
+	religion="hindu"
+	culture="assamese"
+	father=190042
+	trait="kshatriya"
+	trait="shaivist_hindu"
+	747.1.1={
+		birth=yes
+	}
+	790.1.1={
+		death=yes
+	}
+}
+190044 = {
+	name="Harjjaravarman"
+	dynasty=1043002
+	religion="hindu"
+	culture="assamese"
+	father=191560
+	trait="kshatriya"
+	trait="shaivist_hindu"
+	790.1.1={
+		birth=yes
+	}
+	832.1.1={
+		death=yes
+	}
+}
+190045 = {
+	name="Vanamalavarmadeva"
+	dynasty=1043002
+	religion="hindu"
+	culture="assamese"
+	father=190044
+	trait="kshatriya"
+	trait="shaivist_hindu"
+	810.1.1={
+		birth=yes
+	}
+	855.1.1={
+		death=yes
+	}
+}
+190046 = {
+	name="Jayamala"	#Also known as Virabahu
+	dynasty=1043002
+	religion="hindu"
+	culture="assamese"
+	father=190045
+	trait="kshatriya"
+	trait="shaivist_hindu"
+	828.1.1={
+		birth=yes
+	}
+	860.1.1={
+		death=yes
+	}
+}
+190047 = {
+	name="Balavarman"
+	dynasty=1043002
+	religion="hindu"
+	culture="assamese"
+	father=190046
+	trait="kshatriya"
+	trait="shaivist_hindu"
+	844.1.1={
+		birth=yes
+	}
+	890.1.1={
+		death=yes
+	}
+}
+190048 = {
+	name="Tyagasimha"
+	dynasty=1043002
+	religion="hindu"
+	culture="assamese"
+	father=190047
+	trait="kshatriya"
+	trait="shaivist_hindu"
+	870.1.1={
+		birth=yes
+	}
+	900.1.1={
+		death=yes
+	}
+}
+
+190075 = {
+	name="Brahmapala"
+	dynasty=1044000
+	religion="hindu"
+	culture="assamese"
+	father=190114
+	trait="kshatriya"
+	trait="shaktist_hindu" #chosen randomly
+	866.1.1={
+		birth=yes
+	}
+	902.1.1={
+		add_spouse=190035 #Kula Devi
+	} 
+	920.1.1={
+		death=yes
+	}
+}
+190076 = {
+	name="Ratnapala"
+	dynasty=1044000
+	religion="hindu"
+	culture="assamese"
+	father=190075
+	mother=190035 #Kula Devi
+	trait="kshatriya"
+	trait="shaktist_hindu"
+	904.1.1={
+		birth=yes
+	}
+	921.1.1={
+		add_spouse=190036 #Durlabha
+	} 
+	960.1.1={
+		death=yes
+	}
+}
+190077 = {
+	name="Puranderapala" 
+	dynasty=1044000
+	religion="hindu"
+	culture="assamese"
+	father=190076
+	mother=190036 #Durlabha
+	trait="kshatriya"
+	trait="shaktist_hindu"
+	925.1.1={
+		birth=yes
+	}
+	957.1.1={
+		death=yes
+	}
+}
+190078 = {
+	name="Indrapala"
+	dynasty=1044000
+	religion="hindu"
+	culture="assamese"
+	father=190077
+	trait="kshatriya"
+	trait="shaktist_hindu"
+	947.1.1={
+		birth=yes
+	}
+	967.1.1={
+		add_spouse=190037 #Rajya Devi
+	}
+	990.1.1={
+		death=yes
+	}
+}
+190079 = {
+	name="Gopala"
+	dynasty=1044000
+	religion="hindu"
+	culture="assamese"
+	father=190078
+	mother=190037
+	trait="kshatriya"
+	trait="shaktist_hindu"
+	969.1.1={
+		birth=yes
+	}
+	990.1.1={
+		add_spouse=190038 #Nayana
+	}
+	1015.1.1={
+		death=yes
+	}
+}
+190080 = {
+	name="Harshapala"
+	dynasty=1044000
+	religion="hindu"
+	culture="assamese"
+	father=190079
+	mother=190038
+	trait="kshatriya"
+	trait="shaktist_hindu"
+	994.1.1={
+		birth=yes
+	}
+	1035.1.1={
+		death=yes
+	}
+}
+190081 = {
+	name="Dharmapala"
+	dynasty=1044000
+	religion="hindu"
+	culture="assamese"
+	father=190080
+	trait="kshatriya"
+	trait="shaktist_hindu"
+	1016.1.1={
+		birth=yes
+	}
+	1060.1.1={
+		death=yes
+	}
+}
+190082 = {
+	name="Jayapala"
+	dynasty=1044000
+	religion="hindu"
+	culture="assamese"
+	father=190081
+	trait="kshatriya"
+	trait="shaktist_hindu"
+	1052.1.1={
+		birth=yes
+	}
+	1100.1.1={
+		death=yes
+	}
+}
