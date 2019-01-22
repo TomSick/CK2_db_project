@@ -6,25 +6,22 @@ import re
 def name_rip(str):
     myfile = open(str, encoding='Latin-1')
     lords = {}
-    pattern = r"(^\d+)"
-    pattern2 =r"(^\#)(\d+)"
+    pattern = r"^(\d)+"
 
     for line in myfile:
         # if line.__contains__(' = {') and not line.__contains__('.'):
-
-        if re.match(pattern, line) and not line.__contains__('.'):
+        if line.startswith('#'):
+            continue
+        elif re.match(pattern, line) and not line.__contains__('.'):
             newlord = line.split(' ')[0]
             lords[newlord] = {}
-        elif re.match(pattern2, line) and not line.__contains__('.'):
-            newlord = line.split(' ')[0]
-            lords[newlord] = {}
-        elif line.__contains__('name='):
+        elif line.__contains__('name=') or line.__contains__('name ='):
             lords[newlord]['name'] = (line.split('=')[1]).strip('\n')
-        elif line.__contains__('dynasty='):
+        elif line.__contains__('dynasty=') or line.__contains__('dynasty ='):
             lords[newlord]['dynasty'] = (line.split('=')[1]).strip('\n')
-        elif line.__contains__('religion='):
+        elif line.__contains__('religion=') or line.__contains__('religion ='):
             lords[newlord]['religion'] = (line.split('=')[1]).strip('\n')
-        elif line.__contains__('culture='):
+        elif line.__contains__('culture=') or line.__contains__('culture ='):
             lords[newlord]['culture'] = (line.split('=')[1]).strip('\n')
 
     print(lords)  # Prints parsed data for confirmation and troubleshooting.
