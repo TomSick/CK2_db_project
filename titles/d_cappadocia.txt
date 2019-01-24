@@ -1,0 +1,14 @@
+330.1.1={
+	liege = "e_byzantium"
+	vice_royalty = yes
+}
+769.1.1={
+	holder=145825
+}
+867.1.1={
+	holder=145110
+}
+1066.1.1 = {
+	holder = 0
+	vice_royalty = no
+}
