@@ -2,7 +2,7 @@ from ripCharacters import name_rip
 from ripTitles import title_rip
 from ripDynasties import dynasty_rip
 
-# This file serves to call the two methods needed to populate the jsons.
+# This file serves to call the classes needed to populate the jsons.
 
 characterFilePath = 'source files/character files'  # Subdirectory where character files are located.
 

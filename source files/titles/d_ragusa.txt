@@ -1,0 +1,21 @@
+1101.1.1 = {
+	set_tribute_suzerain = {
+		who = "d_dioclea"
+		type = permanent 
+	}
+	holder = 260397	
+}
+1152.1.1 = {
+	holder = 260398
+}
+1204.1.1={
+	clear_tribute_suzerain = d_dioclea
+	liege="k_venice"
+	holder = 260399
+}
+1256.1.1 = {
+	holder = 260400
+}
+1301.1.1 = {
+	holder = 260401
+}

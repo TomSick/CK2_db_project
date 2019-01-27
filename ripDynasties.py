@@ -1,7 +1,7 @@
 import json
 import re
 
-# Method to populate dynasty json with info from dynasties text file.
+# Class to populate dynasty json with info from dynasties text file.
 
 
 def dynasty_rip(filepath):
@@ -15,7 +15,12 @@ def dynasty_rip(filepath):
             dynasty = (line.split('=')[0])
             dynasties[dynasty] = {}
         elif line.__contains__('name'):
-            dynasties[dynasty]['name'] = (line.split('=')[1]).strip('\n')
-    print(dynasties)
-    with open('dynasties.json', 'w') as fp:
+            if line.__contains__('#'):
+                dynasties[dynasty]['name'] = ((line.split('=')[1]).split('#')[0]).strip('\n')  # .strip('\"')
+            else:
+                dynasties[dynasty]['name'] = (line.split('=')[1]).strip('\n').strip('\"')
+    # print(dynasties)
+    with open('json/dynasties.json', 'w') as fp:
         json.dump(dynasties, fp, indent=4)
+
+    print('dynasty rip complete')
