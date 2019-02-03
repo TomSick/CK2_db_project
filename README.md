@@ -11,7 +11,7 @@ This project started when I decided to start a new campaign of Crusader Kings 2.
 
 ## Use:
 
-###Building a local database
+### Building a local database
 To build a local database locate the necessary files navigate to the history folder in the games install directory. From the history folder copy the characters and titles folders to this programs '\source file directory' confirming any replacments. The default location for steam installations will be C:\SteamLibrary\steamapps\common\Crusader Kings II\history
 
 Next we need to grab one more file to grab, locate the 00_dynasties.txt file in the Crusader Kings II\common\dynasties
