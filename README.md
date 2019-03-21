@@ -12,11 +12,10 @@ This project started when I decided to start a new campaign of Crusader Kings 2.
 ## Use:
 
 ### Building a local database
-To build a local database locate the necessary files navigate to the history folder in the games install directory. From the history folder copy the characters and titles folders to this programs '\source file directory' confirming any replacments. The default location for steam installations will be C:\SteamLibrary\steamapps\common\Crusader Kings II\history
+To build a local database locate the necessary files by navigating to the history folder in the games install directory. From the history folder copy the characters and titles folders to this programs '\source file directory' confirming any replacments. The default location for steam installations will be C:\SteamLibrary\steamapps\common\Crusader Kings II\history
 
-Next we need to grab one more file to grab, locate the 00_dynasties.txt file in the Crusader Kings II\common\dynasties
-Move this file to the source to the same location and once again replace the existing file if asked.
+Next we have one more file to grab, locate the 00_dynasties.txt file in the 'Crusader Kings II\common\dynasties' folder and copy this file to the same location as the previous files once again replacing the existing file if prompted.
 
-Run PopulateJSON.py to extract the info from the game files to JSON.
+Run PopulateJSON.py to import the info from the source files and export them to JSON.
 
-Run setupDB.py to create your database from the JSON files.
+Run setupDB.py to import info from the JSON files and export the data to a local SQLite database. This will create the database if it does not yet exist, or update it if already existing.
